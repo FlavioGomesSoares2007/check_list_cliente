@@ -47,7 +47,7 @@ export const Cadastrar = () => {
         )}
 
         <div className="divInputCadastrarSenha">
-          <label htmlFor="senhaComfi">comfirma senha:</label>
+          <label htmlFor="senhaComfi">confirmar senha:</label>
           <input type="password" id="senhaComfi" {...register("senhaComfi")} />
         </div>
         {errors.senhaComfi && (
