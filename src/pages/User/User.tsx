@@ -3,7 +3,6 @@ import { SideBar } from "../../Components/SideBar";
 import { updateUser } from "../../Hooks/CadastrarForm";
 import "./User.css";
 import api from "../../Services/api";
-import { set } from "zod";
 
 export const User = () => {
   const { errors, handleSubmit, register } = updateUser();
