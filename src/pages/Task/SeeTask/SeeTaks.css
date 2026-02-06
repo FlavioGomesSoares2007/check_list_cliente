@@ -1,0 +1,54 @@
+#task {
+  display: flex;
+  width: 99%;
+  align-items: center;
+}
+#task span {
+  margin-left: 10px;
+}
+#apagar {
+  width: 60px;
+  height: 20px;
+
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  margin-left: 13px;
+}
+.taskTrue {
+  margin-top: 7px;
+  background-color: rgb(89, 177, 1);
+  border-radius: 10px;
+  height: 30px;
+}
+.taskFalse {
+  margin-top: 7px;
+  background-color: rgb(64, 64, 63);
+  border-radius: 10px;
+  height: 30px;
+}
+.concluir {
+  margin-left: 30%;
+  border: none;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(3, 173, 3);
+}
+.cancelar {
+  margin-left: 30%;
+  border: none;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.none {
+  display: none;
+}
+.noTasks{
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+}

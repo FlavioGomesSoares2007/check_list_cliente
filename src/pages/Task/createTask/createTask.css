@@ -1,0 +1,50 @@
+#conteinerCreate {
+  width: 300px;
+  height: 200px;
+
+  margin: auto;
+  margin-top: 30px;
+
+  border: 2px solid #fff;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#conteinerCreate button {
+  width: 80px;
+  height: 30px;
+
+  border-radius: 10px;
+
+  border: none;
+  background-color: #fff;
+}
+#tituloCreate {
+  margin-top: 20px;
+  color: #fff;
+}
+.inputCreate {
+  width: 210px;
+  height: 30px;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputCreate input {
+  border: none;
+}
+.inputCreate input:focus {
+  outline: none;
+}
+#errorCreate{
+    margin-top: -10px;
+    color: #fff;
+}
